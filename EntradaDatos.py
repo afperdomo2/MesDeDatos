@@ -1,5 +1,6 @@
 import sys
 
+"1" + 2
 # Recopilación de entradas
 
 # 1. Entrada de la línea de comandos

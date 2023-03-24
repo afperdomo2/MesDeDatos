@@ -6,7 +6,7 @@ print("Hello, world!")
 # 2. Variables
 sum = 1 + 2
 product = sum * 2
-print("Producto:", product)
+print("\nProducto:", product)
 
 # 3. Tipos de datos
 planets_in_solar_system = 8  #  int, pluto used to be the 9th planet, but is too small
@@ -31,10 +31,35 @@ x += 7  # Incremento - x: 9
 x -= 1  # Reducción - x: 8
 x /= 2  # División - x: 4
 x *= 3  # Multiplicación - x: 12
-print("x:", x)
+print("\nValor de x:", x)
 
 # 6. Fechas
 print(date.today())
 
 # 7. Conversión de tipos de datos
-print("Today's date is: " + str(date.today()))
+print("\nToday's date is: " + str(date.today()))
+
+# 8. Condicionales
+print("\nCondicionales")
+a = 16
+b = 25
+c = 27
+if a > b:
+    if b > c:
+        print("a is greater than b and b is greater than c")
+    else:
+        print("a is greater than b and less than c")
+elif a == b:
+    print("a is equal to b")
+else:
+    print("a is less than b")
+
+
+# Operadores `and` y `or`
+a = 23
+b = 34
+if a == 34 or b == 34:
+    print(a + b)
+
+if a == 34 and b == 34:
+    print(a + b)
