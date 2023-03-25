@@ -55,7 +55,7 @@ else:
     print("a is less than b")
 
 
-# Operadores `and` y `or`
+# 9. Operadores `and` y `or`
 a = 23
 b = 34
 if a == 34 or b == 34:
