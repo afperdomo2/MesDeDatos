@@ -2,13 +2,14 @@
 
 ### Cursos de Python 🐍
 
+- Ejecutar un fichero:
 
-* Ejecutar un fichero:
 ```
 python src/app.py
 ```
 
-* Comandos Entorno virtual:
+- Comandos Entorno virtual:
+
 ```
 # Crear un entorno virtual 'env'
 python -m venv env
@@ -23,7 +24,8 @@ source env/bin/activate
 deactivate
 ```
 
-* Comandos pip:
+- Comandos pip:
+
 ```
 # Instalar una librería (python-dateutil)
 pip install python-dateutil
@@ -51,6 +53,9 @@ pip install "python-dateutil==2.7.*" --upgrade
 
 # Desinstalar un paquete
 pip uninstall python-dateutil
-# Ejecutar seguido la actualización de los requirements
+pip freeze > requirements.txt
+
+# Desinstalar todos los paquetes de la lista
+pip uninstall -r requirements.txt -y
 pip freeze > requirements.txt
 ```
