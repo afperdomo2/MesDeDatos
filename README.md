@@ -8,7 +8,7 @@
 python src/app.py
 ```
 
-* Comandos:
+* Comandos Entorno virtual:
 ```
 # Crear un entorno virtual 'env'
 python -m venv env
@@ -21,8 +21,10 @@ source env/bin/activate
 
 # Desactivar el entorno virutal
 deactivate
+```
 
-
+* Comandos pip:
+```
 # Instalar una librería (python-dateutil)
 pip install python-dateutil
 
@@ -46,4 +48,9 @@ pip install python-dateutil --upgrade
 
 # Actualizar los parches (*) de una versión 2.7 instalada
 pip install "python-dateutil==2.7.*" --upgrade
+
+# Desinstalar un paquete
+pip uninstall python-dateutil
+# Ejecutar seguido la actualización de los requirements
+pip freeze > requirements.txt
 ```
