@@ -28,4 +28,22 @@ pip install python-dateutil
 
 # Ver los paquetes instalados
 pip freeze
+
+# Ver la versión de un paquete
+pip freeze python-dateutil
+
+# Crear un archivo requirements.txt con todos los paquetes que el programa necesita
+pip freeze > requirements.txt
+
+# Restaurar un proyecto. Necesita tener creado el fichero 'requirements.txt'
+pip install -r requirements.txt
+
+# Instalar una versión específica de un paquete
+pip install python-dateutil===2.8.0
+
+# Actualizar un paquete
+pip install python-dateutil --upgrade
+
+# Actualizar los parches (*) de una versión 2.7 instalada
+pip install "python-dateutil==2.7.*" --upgrade
 ```
